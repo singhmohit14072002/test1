@@ -1,0 +1,90 @@
+.navbar{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    background-color: #f1f1f1;
+    height: 80px;
+    position: sticky;
+    top: 0px;
+    z-index: 100000;
+}
+
+.LeftContainer{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    flex-grow: 1;
+    justify-content: center;
+}
+
+.LeftContainer .LogoImg{
+    height: 50px;
+    width: 50px;
+    border-radius: 50px;
+    background-color: red;
+}
+
+.MiddleContainer{
+    flex-grow: 4;
+}
+
+.MiddleContainer .Searchform{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.MiddleContainer .SearchBar{
+    width: 100%;
+    height: 40px !important;
+    border-radius: 40px;
+    padding: 0px 40px;
+    box-sizing: border-box;
+    display: inline;
+}
+
+.MiddleContainer .Searchbtn{
+    border-radius: 20px;
+    height: 40px;
+    width: 40px;
+    cursor:pointer;
+    border: none;
+    background-color: #57a7b350;
+}
+
+.RightContainer{
+    flex-grow: 1.5;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+
+.RightContainer div{
+    position: relative;
+    border-radius: 40px;
+}
+
+.RightContainer .Queries{
+    color: white;
+    font-size: 10px;
+    background-color: red;
+    position: absolute;
+    right: -5px;
+    top: -10px;
+    border-radius: 40px;
+    height: 16px;
+    width: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.RightContainer .ProfileImg{
+    height: 40px;
+    width: 40px;
+    border-radius: 40px;
+    background-color: red;
+}

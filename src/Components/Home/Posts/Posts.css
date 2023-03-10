@@ -1,0 +1,136 @@
+.posts{
+    background-color: #f1f1f1;
+    border-radius: 10px;
+    padding: 20px;
+    width: 700px;
+    margin: auto;
+    margin-bottom: 36px;
+    box-shadow: 0px 4px 8px 0px rgba(0,0,0,0.3);
+}
+
+.postbox{
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items: left;
+    gap: 5px;
+    background-color: #f1f1f7;
+    color: #555555;
+    font-size: 16px;
+}
+
+.postbox .profileBox{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: left;
+    gap: 10px;
+}
+
+.postbox .profileImg{
+    width: 30px;
+    height: 30px;
+    object-fit: contain;
+    background-color: red;
+    border-radius: 50px;
+}
+ 
+.postbox .description{
+    margin-bottom: 30px;
+    font-style: italic;
+}
+
+.postImg{
+    height: 500px;
+    width: 600px;
+    object-fit: contain;
+    background-color: red;
+    margin: auto;
+    margin-bottom: 30px;
+}
+
+.postText{
+    color: #888888;
+    font-style: italic;
+    font-weight: 500;
+}
+
+.commentBox{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 30px 20px;
+}
+
+.commentBox .likes{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    gap: 10px;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.commentBox .likes .likeNumber{
+    position: absolute;
+    background-color: #57a7b3;
+    height: 15px;
+    width: 15px;
+    font-size: 10px;
+    border-radius: 50px;
+    object-fit: contain;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    right: -10px;
+    top: -5px;
+    color: white;
+    
+}
+
+.commentBox .rightBox{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+.commentBox .comments{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    font-size: 16px;
+    position: relative;
+    font-weight: bold;
+}
+
+.commentBox .comments .commentsNumber{
+    position: absolute;
+    height: 15px;
+    width: 15px;
+    border-radius: 50px;
+    background-color: #57a7b3;
+    object-fit: contain;
+    font-size: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    right: -10px;
+    top: 0px;
+    color: white;
+}
+
+.repost{
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+    font-size: 16px;
+}
+
+
+
+
